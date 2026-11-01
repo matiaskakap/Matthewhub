@@ -1283,6 +1283,11 @@ Groupboxes.Scripts_Main:AddToggle("AutoSkipCharles", {
 	Default = false,
 	Tooltip = "Repeatedly fires the EggGame WonRound remote to skip Charles."
 })
+Groupboxes.Scripts_Main:AddSlider("SpoofDepth", {
+	Text = "Position Spoof Extra Depth",
+	Min = 0, Max = 10, Default = 0, Rounding = 1, Compact = true,
+	Tooltip = "Extra studs below the floor. Turn Position Spoof off and on after changing it."
+})
 
 local AutoSkipCharlesToken = 0
 
