@@ -17,7 +17,7 @@ getgenv().Abysall = {
 }
 
 
-local BaseUrl = "https://raw.githubusercontent.com/coolcookiebusiness/AbysallHubContinued/main/"
+local BaseUrl = "https://raw.githubusercontent.com/matiaskakap/Matthewhub/refs/heads/main/"
 
 getgenv().Abysall = {
     Environment = loadstring(game:HttpGet(BaseUrl .. "Components/Environment.luau"))(),
@@ -1249,8 +1249,8 @@ Functions.GetRandomCode = function()
 end
 
 local Window = Library:CreateWindow({
-	Title = "Abysall Hub Continued",
-	Footer = "dsc.gg/abysallhubcontinued",
+	Title = "Matthub",
+	Footer = "theres no discordlol",
 	NotifySide = "Right",
 	ShowCustomCursor = false,
 	AutoShow = true,
@@ -6663,11 +6663,11 @@ Functions.HandleCharacter = function(NewCharacter)
 		end
 
 		if Globals.SelfKilled and Globals.MainUI:FindFirstChild("Statistics") then
-			Globals.MainUI.Statistics.Death.Text = "Died to Abysall Hub"
+			Globals.MainUI.Statistics.Death.Text = "Died to matity"
 		end
 
 		if Globals.Deathing and Globals.MainUI:FindFirstChild("Statistics") then
-			Globals.MainUI.Statistics.Death.Text = "Died to Verity"
+			Globals.MainUI.Statistics.Death.Text = "Died to matity"
 		end
 
 		local MainFrame = Globals.MainUI:FindFirstChild("MainFrame")
