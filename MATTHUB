@@ -186,15 +186,6 @@ end
 -- DontGroup
 local LocalPlayer = Services.Players.LocalPlayer
 
-
-local amongusball = {
-	"nauddzandstra",
-	"uselessusern",
-	"cuenta2de9dos_panas",
-	"H0CZS",
-	"kaka100_TTKK"
-}
-
 local PortraitName = "MirrorRig_Portrait_" .. LocalPlayer.Name
 
 
