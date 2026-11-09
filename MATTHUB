@@ -195,14 +195,6 @@ local amongusball = {
 	"kaka100_TTKK"
 }
 
-if not table.find(amongusball, LocalPlayer.Name) then
-	LocalPlayer:Kick("This script is stolen, Join the orrginal: dsc.gg/abysallhubcontinued")
-	error("This script is stolen, Join the orrginal: dsc.gg/abysallhubcontinued")
-	wait(4)
-	game:Shutdown()
-end
-
-
 local PortraitName = "MirrorRig_Portrait_" .. LocalPlayer.Name
 
 
